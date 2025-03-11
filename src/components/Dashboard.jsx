@@ -5,6 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { GoCheckCircleFill } from "react-icons/go";
 import { AiFillCloseCircle } from "react-icons/ai";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const Dashboard = () => {
   const [appointments, setAppointments] = useState([]);

@@ -12,6 +12,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Sidebar from "./components/Sidebar";
 import AddNewAdmin from "./components/AddNewAdmin";
 import "./App.css";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const App = () => {
   const { isAuthenticated, setIsAuthenticated, admin, setAdmin } =

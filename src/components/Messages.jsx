@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 import { Navigate } from "react-router-dom";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const Messages = () => {
   const [messages, setMessages] = useState([]);
